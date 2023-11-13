@@ -1,6 +1,6 @@
 import * as utilities from "./utilities.js";
-import * as serverVariables from "/serverVariables.js";
-import {log} from "/log.js";
+import * as serverVariables from "./serverVariables.js";
+import {log} from "./log.js";
 let cachedRequestsExpirationTime = serverVariables.get("main.repository.CacheExpirationTime");
 
 // Repository file data models cache
