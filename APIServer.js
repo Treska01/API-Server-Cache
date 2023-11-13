@@ -6,7 +6,7 @@ import MiddlewaresPipeline from './middlewaresPipeline.js';
 import * as router from './router.js';
 import { handleCORSPreflight } from './cors.js';
 import { handleStaticResourceRequest } from './staticResourcesServer.js';
-import CachedRequestsManager from "/CachedRequestsManager.js";
+import CachedRequestsManager from "./CachedRequestsManager.js";
 export default class APIServer {
     constructor(port = process.env.PORT || 5000) {
         this.port = port;

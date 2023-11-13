@@ -4,7 +4,7 @@
 // Author : Nicolas Chourot
 // Lionel-Groulx College
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-import CachedRequestsManager from "/CachedRequestsManager.js";
+import CachedRequestsManager from "./CachedRequestsManager.js";
 
 
 export default class Response {
