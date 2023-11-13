@@ -26,7 +26,7 @@ export default class CachedRequestsManager {
                     if (cache.url == url) {
                         // renew cache
                         cache.Expire_Time = utilities.nowInSeconds() + cachedRequestsExpirationTime;
-                        console.log("Data for " + url + " retreived from cached requests");
+                        console.log("Data for " + cache.url + " retreived from cached requests");
                         return cache;
                     }
                 }
